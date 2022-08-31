@@ -1,52 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Ando manejando</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 1 NUCBA</title>
 </head>
 <body>
-    <div class="form">
-      <form>      
-        <h2>Forms</h2>
-        <label for="Nombre">Nombre</label>
-        <input type="text" id="Nombre" placeholder="Nombre" required/>
-        <br>
-        <label for="Apellido">Apellido</label>
-        <input type="text" id="Apellido" placeholder="Apellido">
-        <br>
-        <label for="Edad">Edad</label>
-        <input type="number" id="Edad" placeholder="Edad">
-        <br>
-        <label for="Club">Club</label>
-        <input type="text" id="Club" placeholder="Club">
-        <br>
-        <label for="email">e-mail</label>
-        <input type="email" id="email" placeholder="email">
-        <br>
-        <span>Gusto de helado favorito:</span> 
-        <input type="radio" id="chocolate" name="gustos">
-        <label for="chocolate">chocolate</label>
-        <input type="radio" id="limon" name="gustos">
-        <label for="limon">limon</label>
-        <input type="radio" id="camello" name="gustos">
-        <label for="camello">camello</label>
-        <br>
-        <span>Lets play</span>
-        <select>
-            <option value="piedra">piedra</option>
-            <option value="papel">papel</option>
-            <option value="magnum.44">magnum.44</option>
-        </select>
-        <br>
-        <label for="texto">Soy un area de texto sin muchas aspiraciones en esta vida</label>
-        <textarea id="texto" cols="10" rows="10"></textarea>
-        <br>
-        <input type="submit" value="soy un boton">
-    </form>  
-    </div>
+    <h1>Curriculum Vitae de Lionel Messi</h1>
+    <h2>Datos Personales</h2>
+    <ul>
+        <li>Nombre completo: <strong>Lionel Andrés Messi Cuccittini</strong></li>
+        <li>Fecha de nacimiento: <b>24/6/1987</b></li>
+        <li>Lygar de nacimiento: <b>Rosario, Argentina</b></li>
+    </ul>
+    <h2>Trayectoria</h2>
+    <ul>
+        <li>1994-1999: <b>Niuels Old Boys (Inferiores)</b></li>
+        <li>2000-2021: <b>Barcelona F.C</b></li>
+        <li>2021-2022: <b>Paris Saint Germain</b></li>
+    </ul>
+    <h2>Títulos con el Seleccionado de la pelotita argentina</h2>
+    <ul>
+        <li>2008: <b>Torneo Olímpico de Futbol</b></li>
+        <li>2021: <b>Copa América Brasil 2021</b></li>
+        <li>2022: <b>Finalissima</b></li>
+    </ul>
+ 
+    <hr>
+
+    <h1>Programación Web Full Stack</h1>
+    <h2>Módulos de la cursada</h2>
+    <ol>
+        <li>Diseño Web</li>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git y Github</li>
+            </ul>
+        <li>Programación Web</li>
+            <ul>
+                <li>Javascript</li>
+            </ul>
+        <li>Programacion Web Avanazada</li>
+            <ul>
+                <li>ReactJr</li>
+            </ul>
+        <li>Backend</li>
+            <ul>
+                <li>NodeJs</li>
+                <li>Bases de datos</li>
+            </ul>
+    </ol>
+    <h2>Modalidad de la cursada</h2>
+    <ul>
+        <li><h3>Contenidos en vivo</h3></li>
+        <ul>
+            <li>Clases online en zoom</li>
+            <li>Meetings</li>
+            <li>Clases de repaso</li>
+        </ul>
+    </ul>
+    <ul>
+        <li><h3>Contenido Teórico-Práctico</h3></li>
+        <ul>
+            <li>Teórico</li>
+            <ul>
+                <li>Documentación</li>
+                <li>Articulos de interés</li>
+            </ul>
+            <li>Práctico</li>
+            <ul>
+                <li>Desafios</li>
+                <li>Entregas</li>
+            </ul>
+        </ul>
+    </ul>
+    
+    <hr>
+
+    <h1>Formulario de registro</h1>
+    <form>
+         <label for="name">Nombre:</label>
+         <input type="text" name="nombre">
+         <br>
+         <br>
+         <label for="Apellido">Apellido</label>
+         <input type="text" name="Apellido">
+         <br>
+         <br>
+         <label for="button">Modalidad de cursada</label>
+         <input type="radio" name="button">
+         <label for="button">On-demand</label>
+         <input type="radio" name="button_2">
+         <label for="button_2">En vivo</label>
+         <br>
+         <br>
+         <label for="email">Correo:</label>
+         <input type="email" name="email">
+         <br>
+         <br>
+         <input type="checkbox">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba. 
+         <br> 
+         <br>
+         <input type="checkbox">Declaro que leí los términos y condiciones y estoy listo para alentar a la selección argentina hasta el final.
+         <br>
+         <br>
+         <input type="submit">
+    </form>
+   
 </body>
 </html>
