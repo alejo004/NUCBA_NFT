@@ -1,0 +1,15 @@
+* {
+	background: red;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: rgb(0, 0, 26);
+}
+
+.icon-container {
+	background: red;
+};
+}
